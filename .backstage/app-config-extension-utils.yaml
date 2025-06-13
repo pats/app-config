@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: app-config-extension-utils
+  annotations:
+    github.com/project-slug: pats/app-config
+  tags:
+    - website
+    - nodejs
+    - frontend
+spec:
+  type: website
+  owner: null
+  lifecycle: production
+  system: app-config

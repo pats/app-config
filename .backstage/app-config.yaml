@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: app-config
+  description: null
+  annotations:
+    github.com/project-slug: pats/app-config
+  tags:
+    - frontend
+spec:
+  owner: pats
