@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: app-config-docs
+  annotations:
+    github.com/project-slug: pats/app-config
+  tags:
+    - website
+    - nodejs
+    - frontend
+    - codesnoop
+    - team-pats
+spec:
+  type: website
+  owner: pats
+  lifecycle: production
+  system: app-config
